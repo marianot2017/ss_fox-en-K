@@ -1,0 +1,58 @@
+Comparando archivos LIBRARY.PRG y \\sopo-02\discoh\ss_fox\library.prg
+****** LIBRARY.PRG
+
+*       Release : 05
+
+****** \\sopo-02\discoh\ss_fox\library.prg
+
+*       Release : 04
+
+******
+
+****** LIBRARY.PRG
+parameters w_vclave, w_ultget
+private x_alia
+
+private x_alia
+
+****** \\sopo-02\discoh\ss_fox\library.prg
+parameters w_vclave, w_ultget
+private x_alia, w_retu
+
+w_retu=.f.
+
+******
+
+****** LIBRARY.PRG
+                _curobj=objnum(&w_ultget)       && Ultimo get de la screen principal
+
+        endif
+****** \\sopo-02\discoh\ss_fox\library.prg
+                _curobj=objnum(&w_ultget)       && Ultimo get de la screen principal
+                
+                w_retu=.t.
+        endif
+******
+
+****** LIBRARY.PRG
+
+return
+
+****** \\sopo-02\discoh\ss_fox\library.prg
+
+return(w_retu)
+
+******
+
+****** LIBRARY.PRG
+                                                        IF w_resul = "S"
+                                                                                DO ap WITH d0pref + iif(d0pref$'GW.SE',"p097","
+p096")  && R.05 Mariano
+                                                        ENDIF
+****** \\sopo-02\discoh\ss_fox\library.prg
+                                                        IF w_resul = "S"
+                                                                                DO ap WITH d0pref + "p096"
+                                                        ENDIF
+******
+
+

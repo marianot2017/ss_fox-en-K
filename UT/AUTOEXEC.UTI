@@ -1,0 +1,38 @@
+C:\ARCHIV~1\GRISOFT\AVGFRE~1\BOOTUP.EXE
+
+set path=c:\windows;c:\windows\command;e:\cl;C:\EPSONRCP\;n:\utils\public
+set temp=c:\windows\temp
+lh c:\windows\command\doskey
+
+subst d: c:\d
+subst e: c:\e
+subst f: c:\f
+subst g: c:\g
+subst H: c:\H
+subst k: c:\juank
+subst l: c:\avva
+subst x: c:\x
+subst v: c:\v
+
+rem subst O: c:\H\Z
+rem subst K: F:\
+rem subst L: G:\
+
+set netuser=2
+
+
+lh keyb sp,,C:\WINDOWS\COMMAND\keyboard.sys
+
+set testver=OFF
+set printer=Laser
+set userid=LABREA
+rem set userid=OMEGA
+rem set userid=VIDAL
+rem set userid=AQUAFLEX
+rem set userid=CIBASA
+set develop=ELIMINA
+
+Set NWLANGUAGE=ESPANOL
+
+@ECHO OFF
+C:\WINDOWS\NoUSB20.EXE

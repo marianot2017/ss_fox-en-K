@@ -1,0 +1,24 @@
+CATMAN=OFF
+MEMLIMIT=80,4000,8000
+CODEPAGE=AUTO
+
+editwork=c:\
+progwork=c:\
+sortwork=c:\
+resource=c:\
+tmpfiles=c:\
+
+default=in
+title=
+
+f2='modi proje Instsist;'
+f3='do Instsist;'
+f4='BUILD APP Instsist FROM Instsist;DO Instsist;'
+f5='modi COMM ?;'
+f6='modi SCREE ?;'
+f7='MODI REPO ?;'
+f8='REST MACRO FROM Instsist;'
+f9='set defa to h:\ss_fox\in;'
+F10='when&w_pfile()'
+F11='valid&w_pfile()'
+

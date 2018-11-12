@@ -1,0 +1,559 @@
+*********************************************************************************************
+* 			Version 3.47 37             Comienzo : 11/09/2013  Finalizacion : 11/09/2013   *
+*********************************************************************************************
+
+-Observaciones Generales:
+
+	En la library.prg se tiene en cuenta licencias >9999 de visual fox.
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+	-En Util.prg
+		(R.18 Mariano) Agregue el nombre de la empresa a resguardar en la confirmacion. Ademas fuerzo estar en la empresa que resguardo al momento del resguardo o recupero de empresa.
+		
+-Modificacion de Screen:
+
+	-En utildrem.scx
+		(Mariano) fuerzo estar en la empresa elegida.
+
+	-En utildre2.scx
+		(Mariano) fuerzo estar en la empresa elegida.
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.46 37             Comienzo : 21/03/2013  Finalizacion : 21/03/2013   *
+*********************************************************************************************
+
+-Observaciones Generales:
+
+	En la library.prg se tiene en cuenta licencias >9999 de visual fox.
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+	-En Util.prg
+		(R.17 Mariano) Agregue opcion de menu W, Q , R.
+		
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.45 37             Comienzo : 23/01/2013  Finalizacion : 23/01/2013   *
+*********************************************************************************************
+
+-Observaciones Generales:
+
+	En la library.prg se tiene en cuenta licencias >9999 de visual fox.
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+	-En Util.prg
+		(R.16 Mariano) Agregue opcion de menu distribucion en gestion.
+		
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.44 37             Comienzo : 24/02/2012   Finalizacion : 24/02/2012   *
+*********************************************************************************************
+
+-Observaciones Generales:
+
+	En la library.prg se tiene en cuenta licencias >9999 de visual fox.
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+	-En Util.prg
+		(R.15 Mariano) Si hay alguien en el sistema y se ejecuta el backup automatico, muestra el mensaje por 1 seg y sale.
+		
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.43 37             Comienzo : 29/01/2012   Finalizacion : 29/01/2012   *
+*********************************************************************************************
+
+-Observaciones Generales:
+
+	En la library.prg se tiene en cuenta licencias >9999de visual fox.
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+	-En Util.prg
+		(R.14 Mariano) que pueda hacer backup el domingo. Recupero automatico. Incorpora la carpeta Afip\Cae\comienzo y finalizo el resguardo de empresa.
+		Ademas en enviar a Memosoft viene con lo que haya en AFIP\CAE\FINALIZO por si hay problema y hay que ver algo.
+		
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.42 37             Comienzo : 24/10/2011   Finalizacion : 24/10/2011   *
+*********************************************************************************************
+
+-Observaciones Generales:
+
+	En la library.prg se tiene en cuenta licencias >9999de visual fox.
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+	-En Util.prg
+		(R.13 Mariano) Cambie la validacion de opciones, ya que cuando hay muchas las permutaciones son complicadas para colocar todas.
+		
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.41 37             Comienzo : 23/02/2011   Finalizacion : 23/02/2011   *
+*********************************************************************************************
+
+-Observaciones Generales:
+
+	En la library.prg se tiene en cuenta licencias >9999de visual fox.
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+	-En Util.prg
+		(R.12 Mariano) Mostraba la clave cuando era incorrecta, por testing y me olvide de sacarlo.
+		
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.40 37             Comienzo : 03/01/2011   Finalizacion : 03/01/2011   *
+*********************************************************************************************
+
+-Observaciones Generales:
+
+	En la library.prg se tiene en cuenta licencias >9999de visual fox.
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+	-En Util.prg
+		(R.11 Mariano) Aumente claves a 5 digitos.
+		Agregue la validacion para las opciones de FAE y FAEX. Ademas en enviar a Memosoft viene con lo que haya en AFIP\CAE\COMIENZO por si hay problema y hay que ver algo.
+		
+		
+-Modificacion de Screen:
+
+	-En Utildesh.spr
+		(Mariano) Agrande claves a 5 digitos.
+		
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.39 36             Comienzo : 11/05/2010   Finalizacion : 11/05/2010   *
+*********************************************************************************************
+
+-Observaciones Generales:
+
+	En la library.prg se agrego la rutina para detectar las impresoras desde windows 2000 a windows 7 por ahora, atraves de visual fox.
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+-Modificacion de Screen:
+
+	-En Utildr.spr
+		(Mariano) luego que eligia el dispositivo, si era domingo no aparecia la carpeta del dia.
+		
+	-En Utilrem.spr
+		(Mariano) luego que eligia el dispositivo, si era domingo no aparecia la carpeta del dia.
+		
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.38 36             Comienzo : 22/03/2010   Finalizacion : 22/03/2010   *
+*********************************************************************************************
+
+-Observaciones Generales:
+
+	En la library.prg se agrego la rutina para detectar las impresoras desde windows 2000 a windows 7 por ahora, atraves de visual fox.
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+	-En Util.prg
+		(R.10 Mariano) Para todas las opciones posibles de instalacion agregue que se pueda incluir proyectos (Y).
+		
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.37 36             Comienzo : 15/02/2010   Finalizacion : 15/02/2010   *
+*********************************************************************************************
+
+-Observaciones Generales:
+
+	Para poder ejecutar el util.app en desarrollo y que no aparezca DEMO, sin tener que habilitar nada.
+	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+	-En Util.prg
+		(R.09 Mariano) Agregue que si estoy en desarrollo el NI:0000 y no DEMO.
+		
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.36 36             Comienzo : 17/11/2009   Finalizacion : 17/11/2009   *
+*********************************************************************************************
+
+-Observaciones Generales:
+
+	Para poder ejecutar el util.app en desarrollo y que no aparezca DEMO, debe haber por ej.
+	en la carpeta GW un	archivo gw.mem habilitado.	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+	-En Util.prg
+		(R.08 Mariano) Se modifico, en lugar de ejecutar el arj.exe para resguardar o recuperar
+		desde la linea de comandos, ahora graba un run.bat con el comando adentro. Esto mejora 
+		la ejecucion en los distintos windows. (bug en Windows Vista)
+		Si elejian empresas con f4, luego al faltar la contrabarra "\" en la carpeta destino del
+		resguardo generaba un archivo con el nombre de la carpeta.
+		
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.34 35             Comienzo : 07/04/2009   Finalizacion : 07/04/2009   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+	-En Util.prg
+		(R.07 Mariano) Se agregaron opcion nueva (K-Stock) y (F-Fondos) de instalacion de gestion. 
+		
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.33 35             Comienzo : 29/05/2007   Finalizacion : 29/05/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+	-En Util.prg
+		(R.06 Mariano) Se agregaron opcion nueva (Y-Proyectos) de instalacion de gestion. 
+		
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.32 35             Comienzo : 21/11/2007   Finalizacion : 21/11/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+	-En Util.prg
+		(R.05 Mariano) Se agregaron opciones nuevas de instalacion de gestion. (Ventas, Compras, ventas y compras, fondos)
+
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.30 35             Comienzo : 29/08/2007   Finalizacion : 29/08/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+	-En Util.prg
+		(R.04 Mariano) EL recupero de sistema completo me pisaba el ssf000.prt actual, provocando error de proteccion de hardaware si no hay testver=off. (bug Zerillo)
+
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.29 35             Comienzo : 27/08/2007   Finalizacion : 27/08/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+	-En Util.prg
+		(R.03 Mariano) Cuando deshabilito si existe el ssf000.prt lo elimino, para que lo vuelva a crear en caso de copia de carpeta y desabilitacion/habilitacion.
+
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.28 35             Comienzo : 14/08/2007   Finalizacion : 14/08/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+-Modificacion de Screen:
+
+	-En utildr.scx
+		Cuando hacia resguardo y era domingo no elegia 7_dom, quedando el resguardo en _bkmemo. al querer hacerlo nuevamente fallaba.
+
+	-En utildrem.scx
+		Cuando hacia resguardo y era domingo no elegia 7_dom, quedando el resguardo en _bkmemo. al querer hacerlo nuevamente fallaba.
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.27 35             Comienzo : 04/07/2007   Finalizacion : 04/07/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+	
+	-En Util.prg
+		(R.02 Mariano) Cuando elimino indices creo el indexar.mem en la empresa o sistema. Para asegurarnos de que los cree al entrar al sistema o a la empresa.
+
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.26 35             Comienzo : 03/05/2007   Finalizacion : 03/05/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+	
+	-En Util.prg
+		(R.01 Raúl) Se agrega opción de instalación H (RR.HH) para SJ.
+
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.25 35             Comienzo : 05/03/2007   Finalizacion : 05/03/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+	
+	-En Util.prg
+		Cuando el resguardo se elige particionado a disco antes del resguardo elimino los archivos, ya que el arj.exe solo el primero elimina correctamente quedando basura.
+		Ademas solo particiono a disco, o sea que no sea A o B, ya que sino da error porque no entra los datos en el primer diskette.
+
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.24 35             Comienzo : 01/02/2007   Finalizacion : 01/02/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+	
+	-En Util.prg
+		El resguardo de empresa entraba en loop, por lo agregado del p_par5 para hacer resguardo automatico de varias empresas.
+		Ademas agregue dos opciones nuevas en Varios para eliminar indices de sistema o de empresa, para que sea mas practico soporte.
+
+-Modificacion de Screen:
+
+	-En Util.scx
+		Agregue opcion Sistema Indices y Empresa Indices.
+	
+	-En Utilemp.scx
+		Nuevo. para elegir empresa y eliminar sus indices.
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.23 35             Comienzo : 31/01/2007   Finalizacion : 31/01/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+	
+	-En Util.prg
+		El parametro 2 si contiene SOPO tiene el mismo efecto del edit sopo.123 (URKO)
+		Cuando actualiza sistema completo, antes de borrar cdx de la empresa y crear el indexar .mem en la empresa verifico que exista el directorio, ya que puede pasar que no exista y pincha en el medio. 
+
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.22 35             Comienzo : 30/01/2007   Finalizacion : 30/01/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+	
+	-En Util.prg
+		El parametro 5 se puede completar con rangos de empresas para hacerlo mas practico. (URKO)
+
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.21 35             Comienzo : 30/01/2007   Finalizacion : 30/01/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+	
+	-En Util.prg
+		Cuando recupero de empresa ahora tengo dos opciones con path completo (iw\00) o sin path completo (00\), ya que resguardos viejos esta sin el path completo. (bug Oscar Lopez)
+
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.20 35             Comienzo : 07/11/2006   Finalizacion : 07/11/2006   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+	Se puede recuperar desde CD.
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+-Modificacion de Screen:
+
+	-En utildr2.scx
+		En el cleanup, la funcion dispok() la invoco ademas del directorio elegido con la opcion 'R', de esta manera no intenta grabar y se puede Recuperar de CD.
+		Ademas agregue en el when() del path puse seterr('off') y en el valid() seterr('on').
+
+	-En utildre2.scx
+		En el cleanup, la funcion dispok() la invoco ademas del directorio elegido con la opcion 'R', de esta manera no intenta grabar y se puede Recuperar de CD.
+		Ademas agregue en el when() del path puse seterr('off') y en el valid() seterr('on').
+
+-Modificacion de Report:
+
+*********************************************************************************************

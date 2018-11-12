@@ -1,0 +1,268 @@
+Util Condicionado sin logo 
+*********************************************************************************************
+* 			Version 3.33 35             Comienzo : 29/05/2007   Finalizacion : 29/05/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+	-En Util.prg
+		(R.06 Mariano) Se agregaron opcion nueva (Y-Proyectos) de instalacion de gestion. 
+		
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.32 35             Comienzo : 21/11/2007   Finalizacion : 21/11/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+	-En Util.prg
+		(R.05 Mariano) Se agregaron opciones nuevas de instalacion de gestion. (Ventas, Compras, ventas y compras, fondos)
+
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.30 35             Comienzo : 29/08/2007   Finalizacion : 29/08/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+	-En Util.prg
+		(R.04 Mariano) EL recupero de sistema completo me pisaba el ssf000.prt actual, provocando error de proteccion de hardaware si no hay testver=off. (bug Zerillo)
+
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.29 35             Comienzo : 27/08/2007   Finalizacion : 27/08/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+	-En Util.prg
+		(R.03 Mariano) Cuando deshabilito si existe el ssf000.prt lo elimino, para que lo vuelva a crear en caso de copia de carpeta y desabilitacion/habilitacion.
+
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.28 35             Comienzo : 14/08/2007   Finalizacion : 14/08/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+-Modificacion de Screen:
+
+	-En utildr.scx
+		Cuando hacia resguardo y era domingo no elegia 7_dom, quedando el resguardo en _bkmemo. al querer hacerlo nuevamente fallaba.
+
+	-En utildrem.scx
+		Cuando hacia resguardo y era domingo no elegia 7_dom, quedando el resguardo en _bkmemo. al querer hacerlo nuevamente fallaba.
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.27 35             Comienzo : 04/07/2007   Finalizacion : 04/07/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+	
+	-En Util.prg
+		(R.02 Mariano) Cuando elimino indices creo el indexar.mem en la empresa o sistema. Para asegurarnos de que los cree al entrar al sistema o a la empresa.
+
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.26 35             Comienzo : 03/05/2007   Finalizacion : 03/05/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+	
+	-En Util.prg
+		(R.01 Raúl) Se agrega opción de instalación H (RR.HH) para SJ.
+
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.25 35             Comienzo : 05/03/2007   Finalizacion : 05/03/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+	
+	-En Util.prg
+		Cuando el resguardo se elige particionado a disco antes del resguardo elimino los archivos, ya que el arj.exe solo el primero elimina correctamente quedando basura.
+		Ademas solo particiono a disco, o sea que no sea A o B, ya que sino da error porque no entra los datos en el primer diskette.
+
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.24 35             Comienzo : 01/02/2007   Finalizacion : 01/02/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+	
+	-En Util.prg
+		El resguardo de empresa entraba en loop, por lo agregado del p_par5 para hacer resguardo automatico de varias empresas.
+		Ademas agregue dos opciones nuevas en Varios para eliminar indices de sistema o de empresa, para que sea mas practico soporte.
+
+-Modificacion de Screen:
+
+	-En Util.scx
+		Agregue opcion Sistema Indices y Empresa Indices.
+	
+	-En Utilemp.scx
+		Nuevo. para elegir empresa y eliminar sus indices.
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.23 35             Comienzo : 31/01/2007   Finalizacion : 31/01/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+	
+	-En Util.prg
+		El parametro 2 si contiene SOPO tiene el mismo efecto del edit sopo.123 (URKO)
+		Cuando actualiza sistema completo, antes de borrar cdx de la empresa y crear el indexar .mem en la empresa verifico que exista el directorio, ya que puede pasar que no exista y pincha en el medio. 
+
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.22 35             Comienzo : 30/01/2007   Finalizacion : 30/01/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+	
+	-En Util.prg
+		El parametro 5 se puede completar con rangos de empresas para hacerlo mas practico. (URKO)
+
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.21 35             Comienzo : 30/01/2007   Finalizacion : 30/01/2007   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+	
+	-En Util.prg
+		Cuando recupero de empresa ahora tengo dos opciones con path completo (iw\00) o sin path completo (00\), ya que resguardos viejos esta sin el path completo. (bug Oscar Lopez)
+
+-Modificacion de Screen:
+
+-Modificacion de Report:
+
+*********************************************************************************************
+* 			Version 3.20 35             Comienzo : 07/11/2006   Finalizacion : 07/11/2006   *
+*********************************************************************************************
+
+-Observaciones Generales:	
+
+	Se puede recuperar desde CD.
+
+-Modificacion de Dbf:
+
+-Modificacion de menu:
+
+-Modificacion de prg:
+
+-Modificacion de Screen:
+
+	-En utildr2.scx
+		En el cleanup, la funcion dispok() la invoco ademas del directorio elegido con la opcion 'R', de esta manera no intenta grabar y se puede Recuperar de CD.
+		Ademas agregue en el when() del path puse seterr('off') y en el valid() seterr('on').
+
+	-En utildre2.scx
+		En el cleanup, la funcion dispok() la invoco ademas del directorio elegido con la opcion 'R', de esta manera no intenta grabar y se puede Recuperar de CD.
+		Ademas agregue en el when() del path puse seterr('off') y en el valid() seterr('on').
+
+-Modificacion de Report:
+
+*********************************************************************************************

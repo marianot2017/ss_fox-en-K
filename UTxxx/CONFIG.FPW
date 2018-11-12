@@ -1,0 +1,15 @@
+CATMAN=OFF
+MEMLIMIT=80,4000,8000
+CODEPAGE=AUTO
+
+f2='modi proje Util;'
+f3='do Util;'
+f4='BUILD APP Util FROM Util;DO Util;'
+f5='modi COMM ?;'
+f6='modi SCREE ?;'
+f7='MODI REPO ?;'
+f8='REST MACRO FROM UTILINI;'
+f9='set defa to h:\ss_fox\ut;'
+F10='when&w_pfile()'
+F11='valid&w_pfile()'
+

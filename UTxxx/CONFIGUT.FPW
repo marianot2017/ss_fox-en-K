@@ -1,0 +1,15 @@
+CATMAN=OFF
+MEMLIMIT=80,4000,8000
+CODEPAGE=AUTO
+
+f2='modi proje cgp000;'
+f3='do cgp000;'
+f4='BUILD APP CGP000 FROM CGP000;DO CGP000;'
+f5='modi COMM ?;'
+f6='modi SCREE ?;'
+f7='MODI REPO ?;'
+f8='REST MACRO FROM CONINI;'
+f9='set defa to h:\cg;'
+F10='when&w_pfile()'
+F11='valid&w_pfile()'
+
